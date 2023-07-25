@@ -1,0 +1,28 @@
+/*========== SideBar Style Here ========*/
+.sidebar{
+    width: 10%;
+    height: 100vh;
+    background-color: $theme_blue;
+    padding: 0 5px;
+    ul{
+        li{
+            margin-bottom: 5px;
+            a{
+                font-size: 16px;
+                font-weight: 500;
+                color: $text-primary;
+                letter-spacing: 0.8px;
+                padding: 16px 10px;
+                display: block;
+                background-color: $theme-dark;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    img{
+        max-width: 30px;
+        margin-right: 8px;
+    }
+}    
